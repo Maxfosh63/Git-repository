@@ -1,0 +1,11 @@
+configuration{
+  icon-theme: "Papirus";
+  show-icons: true;
+}
+
+window {
+  width:  50%;
+  height:  60%;
+}
+
+@theme "~/.config/rofi/theme.rasi"

@@ -1,0 +1,121 @@
+* {
+    /* --- COLOR PALETTE (DARK MODE ACTIVE) --- */
+    bg-surface:           #121412; /* mSurface */
+    bg-surface-variant:   #1e201e; /* mSurfaceVariant */
+    fg-on-surface:        #e3e2df; /* mOnSurface */
+    fg-on-surface-mut:    #c2c8c1; /* mOnSurfaceVariant */
+
+    border-outline:       #424843; /* mOutline */
+
+    accent-primary:       #adcfb7; /* mPrimary */
+    fg-on-primary:        #183626; /* mOnPrimary */
+
+    accent-hover:         #b6c8e3; /* mHover / mTertiary */
+    fg-on-hover:          #203147; /* mOnHover / mOnTertiary */
+
+    /* --- UNCOMMENT FOR LIGHT MODE --- */
+    /*
+    bg-surface:           #faf9f6;
+    bg-surface-variant:   #eeeeeb;
+    fg-on-surface:        #1a1c1a;
+    fg-on-surface-mut:    #424843;
+    border-outline:       #c2c8c1;
+    accent-primary:       #446350;
+    fg-on-primary:        #ffffff;
+    accent-hover:         #4c5d74;
+    fg-on-hover:          #ffffff;
+    */
+
+    /* --- GLOBAL LAYOUT VARIABLES --- */
+    font: "JetBrains Mono 11";
+    background-color: transparent;
+    margin:  0;
+    padding: 0;
+    spacing: 0;
+}
+
+window {
+    width:            850px;
+    orientation:      vertical;
+    location:         center;
+    anchor:           center;
+    x-offset:         0;
+    y-offset:         0;
+
+    border:           2px;
+    border-radius:    8px;
+    border-color:     @border-outline;
+    background-color: @bg-surface;
+}
+
+mainbox {
+    padding:          16px;
+    children:         [ inputbar, listview ];
+}
+
+/* --- INPUT BAR --- */
+inputbar {
+    background-color: @bg-surface-variant;
+    border-radius:    6px;
+    padding:          10px 14px;
+    spacing:          10px;
+    children:         [ prompt, entry ];
+}
+
+prompt {
+    text-color:       @accent-primary;
+    font:             "JetBrains Mono Bold 11";
+}
+
+entry {
+    placeholder:      "Search apps...";
+    placeholder-color:@fg-on-surface-mut;
+    text-color:       @fg-on-surface;
+}
+
+/* --- LIST VIEW --- */
+listview {
+    lines:            8;
+    columns:          1;
+    fixed-height:     true;
+    cycle:            true;
+    scrollbar:        false;
+
+    margin:           12px 0px 0px 0px;
+    spacing:          4px;
+}
+
+/* --- ELEMENT ROWS --- */
+element {
+    padding:          8px 12px;
+    border-radius:    4px;
+    text-color:       @fg-on-surface;
+}
+
+element normal.normal {
+    background-color: transparent;
+    text-color:       @fg-on-surface;
+}
+
+element alternate.normal {
+    background-color: transparent;
+    text-color:       @fg-on-surface;
+}
+
+/* Hover & Active States */
+element selected.normal {
+    background-color: @accent-hover;
+    text-color:       @fg-on-hover;
+}
+
+element-text {
+    text-color:       inherit;
+    vertical-align:   0.5;
+}
+
+element-icon {
+    size:             24px;
+    margin:           0px 10px 0px 0px;
+    vertical-align:   0.5;
+}
+
