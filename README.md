@@ -7,7 +7,7 @@
 4. config.toml.bak is my noctalia configuration
 
                             /\
-                           /  \     I USE ARCH BTW
+                           /  \     I USE ARCH BTW, REMEMBER THY WORDS FOR THE TIME U SHALL LIVE
                           /\   \
                          /      \
                         /   ,,   \
