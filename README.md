@@ -6,12 +6,12 @@
 
 4. config.toml.bak is my noctalia configuration
 
-                            /\
-                           /  \     I USE ARCH BTW, REMEMBER THY WORDS FOR THE TIME U SHALL LIVE
-                          /\   \
-                         /      \
-                        /   ,,   \
-                       /   |  |  \-
-                      /_-''    ''-_\
+               /\
+              /  \     I USE ARCH BTW, REMEMBER THY WORDS FOR THE TIME U SHALL LIVE
+             /\   \
+            /      \
+           /   ,,   \
+          /   |  |   \-
+         /_-''    ''-_\
 
 ![Setup](Peak.png)
