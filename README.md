@@ -5,3 +5,5 @@
 3. The wallpaperflare-com-wallpaper-mc.json is my custom color palette
 
 4. config.toml.bak is my noctalia configuration
+
+I USE ARCH BTW! REMEMBER IT
