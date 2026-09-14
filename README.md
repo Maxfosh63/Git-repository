@@ -6,6 +6,8 @@
 
 4. config.toml.bak is my noctalia configuration
 
+5. .bashrc is my bash script, used for alias and terminal ricing
+
                /\
               /  \     I USE ARCH BTW, REMEMBER THY WORDS FOR THE TIME U SHALL LIVE
              /\   \
