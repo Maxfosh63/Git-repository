@@ -16,4 +16,10 @@
           /   |  |   \-
          /_-''    ''-_\
 
+Alr, i hope anyone who sees this uses arch, sooo jst copy and paste these commands in ur terminal aight
+   yay -S rofi
+   yay -S niri
+   yay -S noctalia
+
+
 ![Setup](Peak.png)
