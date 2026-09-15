@@ -26,3 +26,5 @@ Alr, i hope anyone who sees this uses arch, sooo jst copy and paste these comman
 
 
 ![Setup](Peak.png)
+
+This is how the setup should look like after everything
