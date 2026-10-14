@@ -287,6 +287,7 @@ layout {
 // --- RESTORE NOCTALIAV5 & FIX TIMEOUTS ---
 
 // 1. Spawns your entire NoctaliaV5 shell environment (Bar, widgets, menus)
+spawn-at-startup "~/.local/bin/niri-autowasd.sh"
 spawn-at-startup "noctalia"
 
 // 2. Patches the D-Bus activation environment so Zen Browser launches immediately
@@ -395,7 +396,9 @@ binds {
     Super+T {spawn "kitty" "tty-clock" "-t" "-c";}
     Super+Escape {spawn "kitty" "poweroff";}
     Super+F1 {spawn "kitty" "reboot";}
-    Super+Space {spawn "rofi" "-show" "run";}
+    Super+F2 {spawn "kitty" "systemctl" "sleep";}
+    Super+S {spawn "kitty" "feh" "-F" "-Y" "-B" "black" "/home/l/Pictures/screen.jpg";}
+
 
 
     // Use spawn-sh to run a shell command. Do this if you need pipes, multiple commands, etc.
