@@ -25,7 +25,7 @@ Alr, i hope anyone who sees this uses arch, sooo jst copy and paste these comman
     yay -S noctalia
 
 
-![Setup](Peak.png)
+![Setup](/Preview Images/sound-off.png)
 
-![Setup](VeryPeak.png)
+![Setup](/Preview Images/sound-on.png)
 This is how the setup should look like after everything
