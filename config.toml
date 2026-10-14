@@ -9,8 +9,9 @@ order = [ "default", "sidebar" ]
     [bar.default]
     capsule_thickness = 0.84999998472630978
     center = [ "clock", "spacer_4", "date", "spacer_2", "weather", "spacer_5", "ram" ]
-    end = [ "notifications", "clipboard", "volume", "session", "spacer_1", "tray" ]
+    end = [ "notifications", "clipboard", "volume", "recorder", "session", "spacer_1", "tray" ]
     margin_edge = 0
+    margin_ends = 0
     radius = 0
     scale = 1.05
     shadow = false
@@ -24,11 +25,12 @@ order = [ "default", "sidebar" ]
     contact_shadow = true
     enabled = true
     end = []
-    margin_ends = 100
+    margin_edge = 0
+    margin_ends = 0
     position = "left"
     radius = 57
     start = []
-    thickness = 60
+    thickness = 70
 
 [desktop_widgets]
 schema_version = 2
@@ -255,14 +257,14 @@ widget_order = [ "lockscreen-login-box@winit", "lockscreen-login-box@HDMI-A-1" ]
         show_login_button = true
 
 [plugins]
-enabled = [ "noctalia/mpvpaper" ]
+enabled = [ "noctalia/mpvpaper", "noctalia/screen_recorder" ]
 
 [shell]
 font_family = "JetBrainsMonoNL Nerd Font"
 settings_show_advanced = true
 
     [shell.panel]
-    transparency_mode = "glass"
+    floating_offset = 0
 
     [[shell.session.actions]]
     action = "lock"
@@ -363,6 +365,11 @@ color = "primary"
 capsule_border = "primary"
 color = "primary"
 display = "text"
+
+[widget.recorder]
+color = "primary"
+icon_color = "primary"
+type = "noctalia/screen_recorder:recorder"
 
 [widget.session]
 anchor = true
