@@ -24,8 +24,9 @@ Alr, i hope anyone who sees this uses arch, sooo jst copy and paste these comman
    
     yay -S noctalia
 
+After the stuff mentioned is done, this is how the setup should look like :-
 
 ![Setup](Preview%20Images/sound-off.png)
 
 ![Setup](Preview%20Images/sound-on.png)
-This is how the setup should look like after everything
+
